@@ -24,7 +24,7 @@ while (true) {
     echo "Введите второе число: ";
     $numTwo = trim(fgets($demo));
     if($numTwo != '0') {
-        $numTwoModity = intval($numTwo);
+        $numTwoModify = intval($numTwo);
         if(!$numTwoModify) {
             fwrite(STDERR, "Введено не число, повторите попытку \n");
             continue;
